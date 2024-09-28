@@ -4,9 +4,9 @@ function Questions({ questionsArray, setAnswer, id, questions }) {
 
   return (
     <div className="d-flex flex-column justify-content-center m-4 p-4 border border-secondary  gap-3">
-      <div className="d-flex flex-column pb-2 pt-2 gap-2 border border-secondary bg-secondary bg-opacity-25 border-start-0 ">
+      <div className="d-flex flex-column p-2 gap-2 border border-secondary bg-secondary bg-opacity-25 border-start-0 ">
         <div>
-          <h2>Question Category: {questionsArray.category}</h2>
+          <h3>Question Category: {questionsArray.category}</h3>
         </div>
         <div
           className="progress"
